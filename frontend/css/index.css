@@ -1,0 +1,75 @@
+body{
+    background-image: url("../assets/img/fond.png");
+    /*
+    background-color: rgb(110, 110, 110);*/
+    background-repeat: no-repeat;
+     /* adapte l’image à l’écran */
+    /*background-position: center;*/
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button.co{
+
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul{ 
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+
+}
+
+
+.titre{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.game-card{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.game-card a{
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+
+/*TODO : limiter taille texte des desciption avec bouton plus moins*/
+.game-description {
+
+}
